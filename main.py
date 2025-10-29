@@ -55,7 +55,7 @@ def main():
     print(f"{translate('deposit', lang)} {deposit} {translate('uah', lang)} "
           f"{translate('years', lang)} {years} "
           f"{translate('percent', lang)} "
-          f"{'8%' if years >=1 else '6%'} річних.")
+      f"{'8%' if years >=1 else '6%'} {translate('per_year', lang)}.")
     print(f"{translate('monthly', lang)}: {monthly} {translate('uah', lang)}.")
 
 
